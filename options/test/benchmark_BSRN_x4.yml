@@ -52,7 +52,7 @@ network_g:
   type: BSRN
   num_in_ch: 3
   num_feat: 64
-  num_block: 5
+  num_block: 8
   num_out_ch: 3
   upscale: 4
   # change_c: 15
