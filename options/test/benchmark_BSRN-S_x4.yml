@@ -15,7 +15,7 @@ datasets:
     io_backend:
       type: disk
   test_2: # the 2st test dataset
-    name: val_set14
+    name: Set14
     type: PairedImageDataset
     dataroot_gt: ./datasets/Set14/GTmod4
     dataroot_lq: ./datasets/Set14/LRbicx4
@@ -60,7 +60,7 @@ network_g:
 
 # path
 path:
-  pretrain_network_g: experiments/B025_BSRN_C48B5_L1_1500k/models/net_g_500000.pth
+  pretrain_network_g: experiments/pretrained_models/net_g_BSRN-S.pth
   strict_load_g: true
 
 # validation settings
