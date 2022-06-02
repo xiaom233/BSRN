@@ -1,4 +1,4 @@
-name: B025_BSRN_C48B5_L1_1500k
+name: BSRN-S_C48B5_L1_1500k
 suffix: ~  # add suffix to saved images
 model_type: SRModel
 scale: 4
@@ -8,7 +8,7 @@ manual_seed: 0
 
 datasets:
   test_1: # the 1st test dataset
-    name: val_set5
+    name: Set5
     type: PairedImageDataset
     dataroot_gt: ./datasets/Set5/GTmod4
     dataroot_lq: ./datasets/Set5/LRbicx4
@@ -49,7 +49,7 @@ datasets:
 
 # network structures
 network_g:
-  type: BSRNB5
+  type: RFDNFINALB5
   num_in_ch: 3
   num_feat: 48
   num_block: 5
