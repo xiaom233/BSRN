@@ -97,11 +97,9 @@ logger:
   save_checkpoint_freq: !!float 5e3
   use_tb_logger: true
   wandb:
-    project: NTIRE2022
-    # project: ~
+    project: ~
     resume_id: ~
-    # entity: ~
-    entity: xpixel-ntire2022
+    entity: ~
 
 # dist training settings
 dist_params:
