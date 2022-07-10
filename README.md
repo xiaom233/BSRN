@@ -1,5 +1,5 @@
-# [BSRN](https://arxiv.org/abs/2205.05996)  
-Blueprint Separable Residual Network for Efficient Image Super-Resolution  
+# BSRN
+[Blueprint Separable Residual Network for Efficient Image Super-Resolution](https://arxiv.org/abs/2205.05996) 
 Zheyuan Li, Yingqi Liu, Xiangyu Chen, Haoming Cai, Jinjin Gu, Yu Qiao, Chao Dong
 
 BibTex
@@ -16,7 +16,7 @@ BibTex
 
 ## Environment
 
-[PyTorch >= 1.7](https://pytorch.org/)
+[PyTorch >= 1.7](https://pytorch.org/)  
 [BasicSR >= 1.3.4.9](https://github.com/XPixelGroup/BasicSR)
 
 ### Installation
