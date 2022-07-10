@@ -40,7 +40,7 @@ The testing results will be saved in the ./results folder.
 · Preparation of training data can refer to this page. All datasets can be downloaded at the official website.  
 · The training command is like  
 ```
-CUDA_VISIBLE_DEVICES=0 python bascisr/train.py -opt options/train/train_BSRN_x4.yml
+CUDA_VISIBLE_DEVICES=0 python basicsr/train.py -opt options/train/train_BSRN_x4.yml
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 basicsr/train.py -opt options/train/train_BSRN-S_x4.yml --launcher pytorch
 ```
 For more training commands and details, please check the docs in [BasciSR](https://github.com/XPixelGroup/BasicSR)  
