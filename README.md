@@ -1,5 +1,5 @@
 # BSRN
-[Blueprint Separable Residual Network for Efficient Image Super-Resolution](https://arxiv.org/abs/2205.05996) 
+[Blueprint Separable Residual Network for Efficient Image Super-Resolution](https://arxiv.org/abs/2205.05996)   
 Zheyuan Li, Yingqi Liu, Xiangyu Chen, Haoming Cai, Jinjin Gu, Yu Qiao, Chao Dong
 
 BibTex
