@@ -44,7 +44,7 @@ The testing results will be saved in the ./results folder.
 CUDA_VISIBLE_DEVICES=0 python basicsr/train.py -opt options/train/train_BSRN_x4.yml
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 --master_port=4321 basicsr/train.py -opt options/train/train_BSRN-S_x4.yml --launcher pytorch
 ```
-For more training commands and details, please check the docs in [BasciSR](https://github.com/XPixelGroup/BasicSR)  
+For more training commands and details, please check the docs in [BasicSR](https://github.com/XPixelGroup/BasicSR)  
 
 ## Results
 The inference results on benchmark datasets are available at [Google Drive](https://drive.google.com/drive/folders/18uRxyAWwpAfKuxgDneacJkF4-rAyR7XR?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1N9zLwsOBM8MxqpfK5zpZXw) (access code: VISU).
