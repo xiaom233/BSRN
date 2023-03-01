@@ -1,6 +1,6 @@
 # BSRN
 [Blueprint Separable Residual Network for Efficient Image Super-Resolution](https://arxiv.org/abs/2205.05996)   
-Zheyuan Li, Yingqi Liu, Xiangyu Chen, Haoming Cai, Jinjin Gu, Yu Qiao, Chao Dong
+[Zheyuan Li](https://xiaom233.github.io/), Yingqi Liu, Xiangyu Chen, Haoming Cai, Jinjin Gu, Yu Qiao, Chao Dong
 
 BibTex
 ```
@@ -50,4 +50,4 @@ For more training commands and details, please check the docs in [BasicSR](https
 The inference results on benchmark datasets are available at [Google Drive](https://drive.google.com/drive/folders/18uRxyAWwpAfKuxgDneacJkF4-rAyR7XR?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1N9zLwsOBM8MxqpfK5zpZXw) (access code: VISU).
 
 ## Contact
-If you have any question, please email zy.li3@siat.ac.cn or join in the Wechat group of BasicSR to discuss with the authors.
+If you have any question, please email zheyuanli884886@gmail.com or join in the Wechat group of BasicSR to discuss with the authors.
